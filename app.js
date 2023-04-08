@@ -42,37 +42,26 @@ if(getAge <18) {
 
 //Задание №4
 
-/* const blockName = confirm('Хотите ввести название блока?')
+/* 
+let blockName = null
+let elementName = null
+let modifierName = null
 
-if (blockName === true) {
-    const blockName = prompt
-        ('Введите название блока')
-}
-else { alert('Название блока не введено!') }
+if (confirm("Хотите ввести название блока ?")) {
+    blockName = prompt("Введите название блока")
 
+    if (confirm("Хотите ввести название элемента ?"))
+        elementName = prompt("Введите название элемента")
 
-
-
-const elementName = confirm('Хотите ввести название элемента?')
-
-if (elementName === true) {
-    const elementName = prompt
-        ('Введите название элемента')
-}
-else {
-    console.log(blockName)
+    if (confirm("Хотите ввести название модификатора ?")) {
+        modifierName = prompt("Введите название модификатора")
+        if (modifierName === true) { console.log() }
+    }
+    else alert(blockName + '  ' + elementName)
 }
 
-const modificatorName = confirm('Хотите ввести название модификатора?')
-
-if (modificatorName === true) {
-    const modificatorName = prompt
-        ('Введите название модификатора')
-    alert('blockName' + 'elementName' + 'modificatorName')
-}
-else {
-    alert('blockName' + 'elementName')
-}
+else alert("Название блока не введено!")
+alert(blockName + '  ' + elementName + '  ' + modifierName)
  */
 
 
