@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "react-router-dom": "^6.13.0",
+    "react-youtube": "^10.1.0",
     "toastify-js": "^1.12.0"
   }
 }

@@ -1,0 +1,1 @@
+export const btnPagination = new Array (20). fill(undefined)
